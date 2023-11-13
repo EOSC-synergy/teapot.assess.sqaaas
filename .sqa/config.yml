@@ -1,0 +1,66 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/1.7.13
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/interTwin-eu/teapot:
+      branch: Build-CI-pipeline
+      repo: https://github.com/interTwin-eu/teapot
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/interTwin-eu/teapot git:
+        commands:
+        - /usr/bin/env sh .sqa/script.whiny-coral-mammoth.sh
+        container: qc.acc_freaky-salmon-cat
+  QC.Doc:
+    repos:
+      github.com/interTwin-eu/teapot find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.lumpy-emerald-lemur.sh
+        container: qc.doc_squirrely-bistre-gerbil
+      github.com/interTwin-eu/teapot git:
+        commands:
+        - /usr/bin/env sh .sqa/script.crabby-lemon-eagle.sh
+        container: qc.doc_bumpy-eggplant-discus
+      github.com/interTwin-eu/teapot markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.hilly-vermilion-wolfhound.sh
+        container: qc.doc_hasty-indigo-owl
+  QC.Lic:
+    repos:
+      github.com/interTwin-eu/teapot licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.snoopy-pear-dragon.sh
+        container: qc.lic_slimy-thistle-malamute
+  QC.Sec:
+    repos:
+      github.com/interTwin-eu/teapot bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.lanky-violet-kingfisher.sh
+        container: qc.sec_flaky-viridian-cassowary
+  QC.Sty:
+    repos:
+      github.com/interTwin-eu/teapot flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.jumpy-violet-chinchilla.sh
+        container: qc.sty_stuffy-crimson-avocet
+      github.com/interTwin-eu/teapot hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.lousy-cardinal-cuttlefish.sh
+        container: qc.sty_cranky-pear-dollar
+      github.com/interTwin-eu/teapot jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.cranky-pumpkin-frise.sh
+        container: qc.sty_sloppy-turquoise-zebu
+  QC.Ver:
+    repos:
+      github.com/interTwin-eu/teapot get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.gimpy-cardinal-coyote.sh
+        container: qc.ver_baggy-buff-numbat
+timeout: 5400
