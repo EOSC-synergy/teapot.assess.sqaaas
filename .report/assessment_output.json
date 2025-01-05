@@ -1172,23 +1172,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "sS43ufZsR0KKnIwP3_KCsQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/sS43ufZsR0KKnIwP3_KCsQ",
-                "createdAt": "2025-01-05T17:47:23.349747304Z",
+                "entityId": "k8DqoP0kRBu2Tw7Vwrh6lw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/k8DqoP0kRBu2Tw7Vwrh6lw",
+                "createdAt": "2025-01-05T20:52:45.982368472Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/sS43ufZsR0KKnIwP3_KCsQ/image",
+                "image": "https://api.eu.badgr.io/public/assertions/k8DqoP0kRBu2Tw7Vwrh6lw/image",
                 "recipient": {
-                    "identity": "sha256$6969c62f0a3cb1d7fc837fe8edf8ea1a6ccddd73c071e8f5a9ef74da67efa203",
+                    "identity": "sha256$c00e457b3a1655303ac0c1daba87a4845755f24686a06307e92bd66b6dea2af3",
                     "hashed": true,
                     "type": "url",
-                    "salt": "y4NmrAQg7SMiLcCJ",
+                    "salt": "QXJ68zu3zH8Eh8Ah",
                     "plaintextIdentity": "https://github.com/interTwin-eu/teapot"
                 },
-                "issuedOn": "2025-01-05T17:47:23.349749091Z",
+                "issuedOn": "2025-01-05T20:52:45.982370458Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/interTwin-eu/teapot (commit: 25f191199c910a1089e142c9ec465b4abc68279b, branch/tag: main)",
                 "evidence": [
                     {
@@ -1206,7 +1206,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/sS43ufZsR0KKnIwP3_KCsQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/k8DqoP0kRBu2Tw7Vwrh6lw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1218,10 +1218,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-sS43ufZsR0KKnIwP3_KCsQ.png"
+                "imagePath": "uploads/badges/assertion-k8DqoP0kRBu2Tw7Vwrh6lw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/sS43ufZsR0KKnIwP3_KCsQ?identity__url=https%3A//github.com/EOSC-synergy/teapot.assess.sqaaas/commit/aefb4ce76cc07de2ca4c7a958d44b49c9cc199a5\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/sS43ufZsR0KKnIwP3_KCsQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FsS43ufZsR0KKnIwP3_KCsQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/k8DqoP0kRBu2Tw7Vwrh6lw?identity__url=https%3A//github.com/EOSC-synergy/teapot.assess.sqaaas/commit/aefb4ce76cc07de2ca4c7a958d44b49c9cc199a5\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/k8DqoP0kRBu2Tw7Vwrh6lw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2Fk8DqoP0kRBu2Tw7Vwrh6lw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5"
         }
     }
 }
