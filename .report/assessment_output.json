@@ -1129,15 +1129,15 @@
                 },
                 "silver": {
                     "to_fulfill": [
+                        "QC.Met",
                         "QC.Acc",
                         "QC.Lic",
                         "QC.Ver",
-                        "QC.Met",
                         "QC.Doc"
                     ],
                     "missing": [
-                        "QC.Ver",
-                        "QC.Met"
+                        "QC.Met",
+                        "QC.Ver"
                     ],
                     "fulfilled": [
                         "QC.Acc",
@@ -1147,21 +1147,21 @@
                 },
                 "gold": {
                     "to_fulfill": [
+                        "QC.Met",
                         "QC.Acc",
+                        "QC.Lic",
                         "QC.Sec",
                         "QC.Uni",
-                        "QC.Lic",
-                        "QC.Ver",
                         "QC.Sty",
-                        "QC.Met",
+                        "QC.Ver",
                         "QC.Doc"
                     ],
                     "missing": [
+                        "QC.Met",
                         "QC.Sec",
                         "QC.Uni",
-                        "QC.Ver",
                         "QC.Sty",
-                        "QC.Met"
+                        "QC.Ver"
                     ],
                     "fulfilled": [
                         "QC.Acc",
@@ -1172,23 +1172,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "yX9aiWo2QlS588QRFo157w",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/yX9aiWo2QlS588QRFo157w",
-                "createdAt": "2025-01-06T05:10:26.036878605Z",
+                "entityId": "oSVficEtR26sNrQQGFR8Iw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/oSVficEtR26sNrQQGFR8Iw",
+                "createdAt": "2025-01-24T10:25:36.848311329Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/yX9aiWo2QlS588QRFo157w/image",
+                "image": "https://api.eu.badgr.io/public/assertions/oSVficEtR26sNrQQGFR8Iw/image",
                 "recipient": {
-                    "identity": "sha256$fd90519bc16eca367ee8545791bdd93920318350fec18b9a8122bf5d95b7d846",
+                    "identity": "sha256$7e9db25c6ee123584c39397d48ec24e933bc4df586df263abe2a3d8950b1adcf",
                     "hashed": true,
                     "type": "url",
-                    "salt": "rQaL7fTUsVJFyjae",
+                    "salt": "4bmtkWhE3Yh4S4s1",
                     "plaintextIdentity": "https://github.com/interTwin-eu/teapot"
                 },
-                "issuedOn": "2025-01-06T05:10:26.036881067Z",
+                "issuedOn": "2025-01-24T10:25:36.848311849Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/interTwin-eu/teapot (commit: 25f191199c910a1089e142c9ec465b4abc68279b, branch/tag: main)",
                 "evidence": [
                     {
@@ -1206,7 +1206,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/yX9aiWo2QlS588QRFo157w"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/oSVficEtR26sNrQQGFR8Iw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1218,10 +1218,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-yX9aiWo2QlS588QRFo157w.png"
+                "imagePath": "uploads/badges/assertion-oSVficEtR26sNrQQGFR8Iw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/yX9aiWo2QlS588QRFo157w?identity__url=https%3A//github.com/EOSC-synergy/teapot.assess.sqaaas/commit/aefb4ce76cc07de2ca4c7a958d44b49c9cc199a5\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/yX9aiWo2QlS588QRFo157w/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FyX9aiWo2QlS588QRFo157w?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/oSVficEtR26sNrQQGFR8Iw?identity__url=https%3A//github.com/EOSC-synergy/teapot.assess.sqaaas/commit/aefb4ce76cc07de2ca4c7a958d44b49c9cc199a5\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/oSVficEtR26sNrQQGFR8Iw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FoSVficEtR26sNrQQGFR8Iw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fteapot.assess.sqaaas%2Fcommit%2Faefb4ce76cc07de2ca4c7a958d44b49c9cc199a5"
         }
     }
 }
