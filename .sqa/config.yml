@@ -15,58 +15,64 @@ sqa_criteria:
     repos:
       github.com/interTwin-eu/teapot git:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-mauve-penguin.sh
-        container: qc.acc_gimpy-orchid-orangutan
+        - /usr/bin/env sh .sqa/script.ugly-aqua-avocet.sh
+        container: qc.acc_gummy-purple-elephant
   QC.Doc:
     repos:
       github.com/interTwin-eu/teapot find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-zucchini-walrus.sh
-        container: qc.doc_stinky-chestnut-uakari
+        - /usr/bin/env sh .sqa/script.beady-charcoal-jellyfish.sh
+        container: qc.doc_sloppy-khaki-bandicoot
       github.com/interTwin-eu/teapot git:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-dandelion-blue.sh
-        container: qc.doc_homey-buff-alligator
+        - /usr/bin/env sh .sqa/script.snazzy-rust-birman.sh
+        container: qc.doc_crabby-eggplant-octopus
       github.com/interTwin-eu/teapot markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-blue-ostrich.sh
-        container: qc.doc_queasy-cinnabar-capybara
+        - /usr/bin/env sh .sqa/script.snappy-crimson-hummingbird.sh
+        container: qc.doc_queasy-cerise-emu
   QC.Lic:
     repos:
       github.com/interTwin-eu/teapot licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-flax-insect.sh
-        container: qc.lic_wimpy-sepia-woodpecker
+        - /usr/bin/env sh .sqa/script.flabby-tomato-wolf.sh
+        container: qc.lic_thirsty-ochre-ferret
+  QC.Met:
+    repos:
+      github.com/interTwin-eu/teapot cff-converter-python:
+        commands:
+        - /usr/bin/env sh .sqa/script.snippy-ultramarine-newfoundland.sh
+        container: qc.met_bluesy-azure-zorse
   QC.Sec:
     repos:
       github.com/interTwin-eu/teapot bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-amethyst-starfish.sh
-        container: qc.sec_ugly-vermilion-dunker
+        - /usr/bin/env sh .sqa/script.nerdy-orchid-tang.sh
+        container: qc.sec_pasty-ultramarine-havanese
   QC.Sty:
     repos:
       github.com/interTwin-eu/teapot flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-pink-akita.sh
-        container: qc.sty_lousy-brass-quetzal
+        - /usr/bin/env sh .sqa/script.shaky-eggplant-owl.sh
+        container: qc.sty_lumpy-amethyst-binturong
       github.com/interTwin-eu/teapot hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-magnolia-whippet.sh
-        container: qc.sty_tacky-alizarin-caracal
+        - /usr/bin/env sh .sqa/script.scaly-mustard-spider.sh
+        container: qc.sty_wheezy-magnolia-squirt
       github.com/interTwin-eu/teapot jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-gold-salamander.sh
-        container: qc.sty_homely-malachite-boar
+        - /usr/bin/env sh .sqa/script.fuzzy-coral-antelope.sh
+        container: qc.sty_slaphappy-indigo-beagle
   QC.Uni:
     repos:
       github.com/interTwin-eu/teapot pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-olive-retriever.sh
-        container: qc.uni_lanky-razzmatazz-chamois
+        - /usr/bin/env sh .sqa/script.woolly-heliotrope-harrier.sh
+        container: qc.uni_tacky-sepia-tortoise
   QC.Ver:
     repos:
       github.com/interTwin-eu/teapot get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-amber-setter.sh
-        container: qc.ver_snippy-charcoal-fox
+        - /usr/bin/env sh .sqa/script.jumpy-magenta-barnacle.sh
+        container: qc.ver_greasy-champagne-mist
 timeout: 5400
